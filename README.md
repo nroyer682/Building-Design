@@ -70,7 +70,11 @@ To run the JUnit test suite:
 
 ```bash
 cd Building_Design_Problem
+# On Unix/Linux/Mac:
 java -cp bin:path/to/junit-4.jar:path/to/hamcrest-core.jar org.junit.runner.JUnitCore junit_tests.StarterTests
+
+# On Windows:
+# java -cp bin;path\to\junit-4.jar;path\to\hamcrest-core.jar org.junit.runner.JUnitCore junit_tests.StarterTests
 ```
 
 ## Usage Examples
